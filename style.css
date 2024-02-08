@@ -1,0 +1,36 @@
+/* Estilos globais */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  /* Estilos para o Carousel */
+  
+  .carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+  /* Estilos para o grid de cards */
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+  
+  
+  .card:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #666;
+  }
+  
